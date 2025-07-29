@@ -1,0 +1,17 @@
+SUM = 0.0
+
+DO I = 1,1000
+
+SUM = SUM + 1.0 / FLOAT(I ** 2)
+
+ENDDO
+
+PI = SQRT(6.0 * SUM)
+
+PRINT 20,SUM
+
+20 FORMAT(2X,"PI = ",F12.6)
+
+STOP
+
+END

@@ -1,0 +1,25 @@
+INTEGER FACT
+
+READ*,X
+
+SUM = 0.0
+
+DO I = 0,10
+
+FACT = 1
+
+DO J = 1,I
+
+FACT = FACT * J
+
+ENDDO
+
+SUM = SUM + X**I/FLOAT(FACT)
+
+ENDDO
+
+PRINT*,SUM
+
+STOP
+
+END

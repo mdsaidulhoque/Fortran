@@ -1,0 +1,17 @@
+PROD = 1.0
+
+K = 2
+
+DO I = 1 , 10
+
+PROD = PROD * REAL(I)
+
+ENDDO
+
+PRINT 20 , PROD
+
+20 FORMAT( 2X  "2  = "  PROD)
+
+STOP
+
+END

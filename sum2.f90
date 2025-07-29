@@ -1,0 +1,15 @@
+INTEGER SUM
+
+SUM = 0
+
+DO 7 I = 1,99
+
+SUM = SUM + I 
+
+7 ENDDO
+
+PRINT*,SUM
+
+STOP
+
+END

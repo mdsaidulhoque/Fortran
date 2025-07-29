@@ -1,0 +1,15 @@
+INTEGER SUM
+
+SUM = 0
+
+DO I = 1,99,2
+
+SUM = SUM + I 
+
+ENDDO
+
+PRINT*,"SUM=",SUM
+
+STOP
+
+END

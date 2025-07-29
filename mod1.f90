@@ -1,0 +1,13 @@
+DO K = 1,99
+
+IF (MOD(K,6).EQ.0) THEN
+
+PRINT*,K
+
+ENDIF
+
+ENDDO
+
+STOP 
+
+END

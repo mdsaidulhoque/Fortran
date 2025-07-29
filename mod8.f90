@@ -1,0 +1,13 @@
+DO I = 1,199
+
+IF ( (MOD( I , 2 ).NE.0).AND.(MOD( I , 5 ).NE.0) ) THEN
+
+PRINT*, I
+
+ENDIF
+
+ENDDO
+
+STOP
+
+END

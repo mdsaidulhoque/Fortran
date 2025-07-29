@@ -1,0 +1,23 @@
+DIMENSION M(100)
+
+J = 0
+
+DO I = 1,99
+
+IF(MOD(I,7).NE.0 ) THEN 
+
+J = J + 1
+
+M(J) = I 
+
+ENDIF
+
+ENDDO
+
+PRINT 20 , (M(I),I = 1, J)
+
+20 FORMAT( 5I3)
+
+STOP
+
+END
