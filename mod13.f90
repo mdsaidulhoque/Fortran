@@ -1,0 +1,13 @@
+DO I = 1 , 99
+
+IF ( MOD(I , 8).EQ.0 ) THEN
+
+PRINT*, I
+
+ENDIF
+
+ENDDO
+
+STOP
+
+END

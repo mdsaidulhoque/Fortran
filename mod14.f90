@@ -1,0 +1,13 @@
+DO I = 1 , 299
+
+IF ( MOD(I , 7).NE.0 ) THEN
+
+PRINT*, I
+
+ENDIF
+
+ENDDO
+
+STOP
+
+END
